@@ -126,32 +126,6 @@ This project is a **high-performance, cross-platform Growtopia server** written 
 └── Sequencers/             # Animation sequencers (e.g., tile effects)
 ```
 
----
-
-## ⚙️ Configuration
-
-Edit `Config/config.yaml`:
-
-```yaml
-server:
-  name: "LyxTech GTPS"
-  ip: "0.0.0.0"
-  port: 17091
-  max_players: 500
-
-database:
-  host: "127.0.0.1"
-  port: 3306
-  username: "root"
-  password: "@reugrowtopia01"
-  database: "gtps"
-
-redis:
-  host: "127.0.0.1"
-  port: 6379
-
-grpc:
-  world_service_port: 50051
 ```
 
 > 🔐 **Never commit passwords!** Use environment variables in production.
@@ -212,9 +186,8 @@ Growtopia is a registered trademark of **Ubisoft**. This project is **not affili
 
 ## 🤝 Contact
 
-- **Developer**: Willy (Theo Willy)
-- **Studio**: [LyxTech Studio](https://lyxtech.xyz)
-- **Instagram**: [@lyytechid](https://instagram.com/lyytechid), [@theok_Willy](https://instagram.com/theok_Willy)
+- **Developer**: HyperCold
+- **Instagram**: [@lyytechid](https://instagram.com/lyytechid)
 - **Email**: lyytechid@gmail.com
 
 ---
